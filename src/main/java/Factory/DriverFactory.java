@@ -1,9 +1,19 @@
 package Factory;
 
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
 public class DriverFactory {
 
-    private String _driver;
-    private String Name;
+    public WebDriver driver;
 
+    public WebDriver setDriver(String browserDetails) {
 
+        WebDriver driver = new ChromeDriver();
+        driver.manage().window().maximize();
+        driver.manage().deleteAllCookies();
+
+        return driver;
+    }
 }
