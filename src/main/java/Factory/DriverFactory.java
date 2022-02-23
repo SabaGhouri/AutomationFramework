@@ -8,6 +8,9 @@ public class DriverFactory {
     private String Name;
 
     public WebDriver driver;
+    public void Ravi(){
+
+    }
 
     public void setUp(String browserName){
         switch (browserName){
