@@ -1,8 +1,14 @@
 package Factory;
 
 public class DriverFactory {
+    public void SetUp(){
+    }
 
-    private String _driver;
-    private String Name;
+    public void getDriver(){
+    }
+
+    public void saqibFunc(){}
+    public void tahirFuunc(){}
+    public void majid(){}
 
 }
